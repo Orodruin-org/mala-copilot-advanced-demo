@@ -12,10 +12,34 @@ wheels/
 # Environment variables
 .env
 
-# Ruff
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# Linting
 .ruff_cache/
+.mypy_cache/
+
+# Python version managers
+.python-version
+
+# Logs
+*.log
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# OS-specific files
+.DS_Store
+Thumbs.db
 
 # IDE
 .idea/
+.vscode/
 *.swp
 *.swo
