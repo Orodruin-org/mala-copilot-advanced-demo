@@ -4,6 +4,7 @@
       {
         "type": "command",
         "command": "python .github/hooks/scripts/gatekeeper.py",
+        "windows": "uv run python .github/hooks/scripts/gatekeeper.py",
         "timeout": 10
       }
     ]
